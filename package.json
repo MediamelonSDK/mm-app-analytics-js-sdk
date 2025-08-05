@@ -1,0 +1,51 @@
+{
+    "name": "mm-app-analytics-js-sdk",
+    "version": "1.0.0",
+    "description": "MediaMelon Application Analytics SDK",
+    "type": "module",
+    "main": "mm-app-analytics-js-sdk.min.js",
+    "module": "mm-app-analytics-js-sdk.min.js",
+    "browser": "mm-app-analytics-js-sdk.min.js",
+    "exports": {
+        ".": {
+            "import": "./mm-app-analytics-js-sdk.min.js",
+            "require": "./mm-app-analytics-js-sdk.min.js",
+            "browser": "./mm-app-analytics-js-sdk.min.js"
+        },
+        "./browser": "./mm-app-analytics-js-sdk.min.js"
+    },
+    "files": [
+        "mm-app-analytics-js-sdk.min.js",
+        "mm-app-analytics-js-sdk.min.js.map"
+    ],
+    "sideEffects": false,
+    "scripts": {
+        "prepublishOnly": "echo 'Package is ready for publishing'"
+    },
+    "keywords": [
+        "analytics",
+        "sdk",
+        "mediamelon",
+        "tracking",
+        "video-analytics",
+        "user-tracking",
+        "monetization",
+        "experiment-tracking"
+    ],
+    "author": "MediaMelon",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mediamelon/mm-app-analytics-js-sdk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mediamelon/mm-app-analytics-js-sdk/issues"
+    },
+    "homepage": "https://github.com/mediamelon/mm-app-analytics-js-sdk#readme",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "dependencies": {
+        "uuid": "^11.1.0"
+    }
+}
