@@ -36,12 +36,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mediamelon/mm-app-analytics-js-sdk.git"
+        "url": "https://github.com/mediamelonSDK/mm-app-analytics-js-sdk.git"
     },
     "bugs": {
-        "url": "https://github.com/mediamelon/mm-app-analytics-js-sdk/issues"
+        "url": "https://github.com/mediamelonSDK/mm-app-analytics-js-sdk/issues"
     },
-    "homepage": "https://github.com/mediamelon/mm-app-analytics-js-sdk#readme",
+    "homepage": "https://github.com/mediamelonSDK/mm-app-analytics-js-sdk#readme",
     "engines": {
         "node": ">=14.0.0"
     },
