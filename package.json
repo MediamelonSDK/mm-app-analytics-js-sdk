@@ -4,19 +4,24 @@
     "description": "MediaMelon Application Analytics SDK",
     "type": "module",
     "main": "mm-app-analytics-js-sdk.min.js",
-    "module": "mm-app-analytics-js-sdk.min.js",
+    "module": "mm-app-analytics-js-sdk.esm.js",
     "browser": "mm-app-analytics-js-sdk.min.js",
     "exports": {
         ".": {
-            "import": "./mm-app-analytics-js-sdk.min.js",
+            "import": "./mm-app-analytics-js-sdk.esm.js",
             "require": "./mm-app-analytics-js-sdk.min.js",
             "browser": "./mm-app-analytics-js-sdk.min.js"
         },
-        "./browser": "./mm-app-analytics-js-sdk.min.js"
+        "./browser": "./mm-app-analytics-js-sdk.min.js",
+        "./es5": "./mm-app-analytics-js-sdk.es5.min.js"
     },
     "files": [
         "mm-app-analytics-js-sdk.min.js",
-        "mm-app-analytics-js-sdk.min.js.map"
+        "mm-app-analytics-js-sdk.min.js.map",
+        "mm-app-analytics-js-sdk.es5.min.js",
+        "mm-app-analytics-js-sdk.es5.min.js.map",
+        "mm-app-analytics-js-sdk.esm.js",
+        "mm-app-analytics-js-sdk.esm.js.map"
     ],
     "sideEffects": false,
     "scripts": {
@@ -36,12 +41,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mediamelonSDK/mm-app-analytics-js-sdk.git"
+        "url": "https://github.com/mediamelon/mm-app-analytics-js-sdk.git"
     },
     "bugs": {
-        "url": "https://github.com/mediamelonSDK/mm-app-analytics-js-sdk/issues"
+        "url": "https://github.com/mediamelon/mm-app-analytics-js-sdk/issues"
     },
-    "homepage": "https://github.com/mediamelonSDK/mm-app-analytics-js-sdk#readme",
+    "homepage": "https://github.com/mediamelon/mm-app-analytics-js-sdk#readme",
     "engines": {
         "node": ">=14.0.0"
     },
